@@ -84,6 +84,8 @@ footer {
 	right: 0;
 	bottom:0;
 	padding: 25px;
+	border-top-style: solid;
+	border-color: #4aaaa5;
 }
 a:link, a:visited {
 	background-color: #ffffff;
