@@ -140,10 +140,6 @@ input, textarea, form {
 	float: left;
 	background-color: #fff;
 }
-.hangman, .rpggame, .triviagame, .rutgers, .rockps {
-	position: relative;
-	width: 250px;
-}
 img {
 	background-color: #fff;
 }
@@ -151,17 +147,24 @@ h2, h3 {
 	color: #4aaaa5;
 	background-color: #fff;
 }
-h4 {
-	position: absolute;
-	top: 125px;
-	left: 0;
-	width: 250px;
-	padding: 10px 0px;
-	background-color: #4aaaa5;
+.image-wrapper {
+    position: relative;
+    width: 250px;
+    float:left;
+    margin: 10px 10px 0px;
+    background-color: #fff;
 }
-h4 span {
-	color: #fff;
-	background-color: #4aaaa5;
-	font: bold
-	font-size: 24px;
+.image-wrapper p {
+    position: absolute;
+    left: 0;
+    top: 125px;
+    padding: 10px;
+    border: 1px solid #FFF;
+    width: 223px;
+    color: #FFF;
+    background-color: #4aaaa5;
+    margin: 0px;
+    font-weight: bold;
+    font-size:20px;
+    text-align: center;
 }
