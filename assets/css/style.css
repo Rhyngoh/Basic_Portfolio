@@ -110,6 +110,10 @@ a:hover, a:active {
 	margin: 0 auto 0 auto;
 	margin-bottom: -142px;
 }
+#mypicture {
+	float:left;
+	margin: 5px;
+}
 #maincontent {
 	background-color: #ffffff;
 	border-color:#dddddd;
